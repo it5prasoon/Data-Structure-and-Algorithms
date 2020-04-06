@@ -1,0 +1,8 @@
+1. maximum using friend function where one number is a member of one class and other number is member of some other class
+
+2. using copy constructor to copy data of an object to another object
+
+3. program to show constructor overloading
+
+1. write a program to perform push and pop opn on a stack implement this stack using array.
+2. write a program to perform push and pop opn on a stack using linked list.
