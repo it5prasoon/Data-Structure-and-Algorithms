@@ -48,7 +48,7 @@ int main()
   for(int i=0; i<max(a.size(),b.size()); i++){
       for(int j=0; j<min(b.size(),a.size()); j++){
         int sum = a[i]+b[j];
-        if(s.count(sum)==0){
+        if(s.count(sum)==0){ //for distinct sum
           pairs.pb(mp(i,j));
         }
 
@@ -59,7 +59,7 @@ int main()
     // for(auto itr=pairs.begin(); itr!=pairs.end(); ++itr){
     //   cout<<itr->F<<" "<<itr->S<<endl;
     // }
-    for(int i=0; i<size; i++){
+    for(int i=0; i<pairs.size(); i++){
       cout<<pairs[i].F<<" "<<pairs[i].S<<endl;
     }
 
